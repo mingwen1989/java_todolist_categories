@@ -1,9 +1,9 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
-archivesBaseName = "leap-year"
+archivesBaseName = "change-this!!!!"
 version = '1.0'
-mainClassName = "LeapYear"
+mainClassName = "App"
 
 repositories {
   mavenCentral()
