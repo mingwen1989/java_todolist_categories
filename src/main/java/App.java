@@ -8,6 +8,7 @@ import static spark.Spark.*;
 public class App {
   public static void main(String[] args) {
     staticFileLocation("/public");
+    
     get("/", (request, response) -> {
       Map<String, Object> model = new HashMap<String, Object>();
       model.put("template", "templates/home.vtl");
@@ -17,10 +18,10 @@ public class App {
     get("/detector", (request, response) -> {
       Map<String, Object> model = new HashMap<String, Object>();
 
-      String userInput = request.queryParams("number");
-      NumbersToWords newNumbers = new NumbersToWords();
-      String convertedNumber = newNumbers.integerConverter(userInput);
-      model.put("convertedNumber", convertedNumber);
+      String userInput = request.queryParams("formInputName");
+      App newApp = new App();
+      String varName = newApp.methodName(userInput);
+      model.put("varName", varName);
 
       model.put("template", "templates/detector.vtl");
       return new ModelAndView(model, "templates/layout.vtl");
