@@ -1,7 +1,7 @@
 import org.junit.*;
 import static org.junit.Assert.*;
 
-public class name {
+public class test {
 
   @Test
 public void methodWeAreTesting_behaviorWeAreTesting_expectedResult() {
