@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AppTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-04-26T16:44:47" hostname="epicodus-39.local" time="1.163">
+<testsuite name="AppTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-04-27T16:21:23" hostname="epicodus-39.local" time="2.316">
   <properties/>
-  <testcase name="taskIsCreatedTest" classname="AppTest" time="0.32"/>
+  <testcase name="taskIsCreatedTest" classname="AppTest" time="0.356"/>
   <testcase name="rootTest" classname="AppTest" time="0.011"/>
-  <testcase name="taskIsDisplayedTest" classname="AppTest" time="0.659"/>
+  <testcase name="taskIsDisplayedTest" classname="AppTest" time="1.774"/>
   <testcase name="multipleTasksAreDisplayedTest" classname="AppTest" time="0.161"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[[Thread-4] INFO org.eclipse.jetty.util.log - Logging initialized @535ms
+  <system-err><![CDATA[[Thread-4] INFO org.eclipse.jetty.util.log - Logging initialized @537ms
 [Thread-4] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
 [Thread-4] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
 [Thread-4] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
-[Thread-4] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@7f42c226{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
-[Thread-4] INFO org.eclipse.jetty.server.Server - Started @631ms
-Apr 26, 2016 9:44:47 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+[Thread-4] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@52b084b3{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Thread-4] INFO org.eclipse.jetty.server.Server - Started @620ms
+Apr 27, 2016 9:21:23 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: 'http://localhost:4567/skeleton.css' [45:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-Apr 26, 2016 9:44:47 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Apr 27, 2016 9:21:23 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: 'http://localhost:4567/skeleton.css' [52:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-Apr 26, 2016 9:44:47 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Apr 27, 2016 9:21:23 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: 'http://localhost:4567/skeleton.css' [145:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-Apr 26, 2016 9:44:47 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Apr 27, 2016 9:21:23 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: 'http://localhost:4567/skeleton.css' [406:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-Apr 26, 2016 9:44:47 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Apr 27, 2016 9:21:23 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: 'http://localhost:4567/skeleton.css' [409:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-Apr 26, 2016 9:44:47 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Apr 27, 2016 9:21:23 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: 'http://localhost:4567/skeleton.css' [412:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-Apr 26, 2016 9:44:47 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Apr 27, 2016 9:21:23 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: 'http://localhost:4567/skeleton.css' [415:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-Apr 26, 2016 9:44:47 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Apr 27, 2016 9:21:23 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: 'http://localhost:4567/skeleton.css' [418:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-Apr 26, 2016 9:44:48 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Apr 27, 2016 9:21:25 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: 'http://localhost:4567/skeleton.css' [45:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-Apr 26, 2016 9:44:48 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Apr 27, 2016 9:21:25 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: 'http://localhost:4567/skeleton.css' [52:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-Apr 26, 2016 9:44:48 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Apr 27, 2016 9:21:25 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: 'http://localhost:4567/skeleton.css' [145:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-Apr 26, 2016 9:44:48 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Apr 27, 2016 9:21:25 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: 'http://localhost:4567/skeleton.css' [406:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-Apr 26, 2016 9:44:48 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Apr 27, 2016 9:21:25 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: 'http://localhost:4567/skeleton.css' [409:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-Apr 26, 2016 9:44:48 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Apr 27, 2016 9:21:25 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: 'http://localhost:4567/skeleton.css' [412:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-Apr 26, 2016 9:44:48 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Apr 27, 2016 9:21:25 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: 'http://localhost:4567/skeleton.css' [415:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-Apr 26, 2016 9:44:48 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Apr 27, 2016 9:21:25 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: 'http://localhost:4567/skeleton.css' [418:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-Apr 26, 2016 9:44:48 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Apr 27, 2016 9:21:25 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: 'http://localhost:4567/skeleton.css' [45:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-Apr 26, 2016 9:44:48 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Apr 27, 2016 9:21:25 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: 'http://localhost:4567/skeleton.css' [52:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-Apr 26, 2016 9:44:48 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Apr 27, 2016 9:21:25 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: 'http://localhost:4567/skeleton.css' [145:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-Apr 26, 2016 9:44:48 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Apr 27, 2016 9:21:25 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: 'http://localhost:4567/skeleton.css' [406:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-Apr 26, 2016 9:44:48 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Apr 27, 2016 9:21:25 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: 'http://localhost:4567/skeleton.css' [409:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-Apr 26, 2016 9:44:48 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Apr 27, 2016 9:21:25 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: 'http://localhost:4567/skeleton.css' [412:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-Apr 26, 2016 9:44:48 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Apr 27, 2016 9:21:25 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: 'http://localhost:4567/skeleton.css' [415:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
-Apr 26, 2016 9:44:48 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+Apr 27, 2016 9:21:25 AM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
 WARNING: CSS error: 'http://localhost:4567/skeleton.css' [418:8] Error in media list. (Invalid token "(". Was expecting one of: <S>, <IDENT>.)
 [Test worker] INFO spark.webserver.JettySparkServer - >>> Spark shutting down ...
-[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@7f42c226{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@52b084b3{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
 [Test worker] INFO spark.webserver.JettySparkServer - done
 ]]></system-err>
 </testsuite>
